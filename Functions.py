@@ -39,3 +39,14 @@ def square(n):
     
 main()
 
+#self excerise to add 2 numbers
+def main():
+    x = int(input("Enter x"))
+    y = int(input("Enter y"))
+    print(add(x,y))
+
+def add(x,y):
+    return int(x) + int(y)
+    
+main()
+
