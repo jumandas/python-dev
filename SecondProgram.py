@@ -31,3 +31,20 @@ f=float(input("f"))
 g = e/f
 
 print(g)
+
+#divide and rounding off the value upto 2 digits
+e=float(input("e"))
+f=float(input("f"))
+g = round(e/f,2)
+
+print(g)
+
+#divide and printing the value upto 2 digits
+e=float(input("e"))
+f=float(input("f"))
+g = e/f
+
+print(f"{g:.2f}")
+
+
+
