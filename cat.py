@@ -22,3 +22,17 @@ for _ in range(3):
     
 #print meow 3 times - one more way to do
 print("meow\n" * 3 , end = "")
+
+
+print("-------------------------------------")
+
+#checking if input is true and printing the data
+
+while True:
+    n = int(input("Whats n?"))
+    if n > 0:
+        break
+    
+for _ in range(n):
+    print("meow")
+    
