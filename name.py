@@ -2,7 +2,8 @@
 #sys.argv (argument vector)
 #passing input while running the argument (command line argument)
 #python name.py Juman
-#sys.argv[0] will print the name of the filte
+#sys.exit will exit the program
+#sys.argv[0] will print the name of the file
 #sys.argv[1] will be an input during the command line argument
 
 import sys
@@ -41,3 +42,4 @@ print("hello my name is" , sys.argv[1])
 # David is valid input 
 # David Malan is invalid input
 #no input is invalid input
+# even "David Malan" is a valid input , need to check with double quotes
