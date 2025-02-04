@@ -10,3 +10,15 @@ try:
     print("hello , my name is", sys.argv[1])
 except IndexError:
     print("too few arguments")
+
+
+#Another way of executing arguments
+
+import sys
+
+if len(sys.argv) < 2:
+    print("Too Few arguments")
+elif len(sys.argv) > 2:
+    print("Too many arguments")
+else:
+    print("hello my name is" , sys.argv[1])
