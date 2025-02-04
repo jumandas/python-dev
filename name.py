@@ -24,6 +24,20 @@ else:
     print("hello my name is" , sys.argv[1])
 
 #David is valid input 
-#"David Malan" is valid input
 #David Malan is invalid input
+#no input is invalid input
+
+
+# proper way of handling the sys.argv with sys.exit
+import sys
+
+#check for errors
+if len(sys.argv) < 2:
+    sys.exit("Too Few arguments")
+elif len(sys.argv) > 2:
+    sys.exit("Too many arguments")
+print("hello my name is" , sys.argv[1])
+    
+# David is valid input 
+# David Malan is invalid input
 #no input is invalid input
