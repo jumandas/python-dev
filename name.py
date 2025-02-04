@@ -43,3 +43,31 @@ print("hello my name is" , sys.argv[1])
 # David Malan is invalid input
 #no input is invalid input
 # even "David Malan" is a valid input , need to check with double quotes
+
+
+#slices
+#[1:] means start at element 1 and go to end 
+#[1:-1] using negative value means slicing at the end
+import sys
+
+#check for errors
+if len(sys.argv) < 2:
+    sys.exit("Too Few arguments")
+
+for arg in sys.argv[1:]:
+    print("hello my name is" , arg)
+    
+# David is valid input 
+# David Malan is invalid input
+#no input is invalid input
+
+#Output without -1
+#hello my name is ddd
+#hello my name is ssss
+#hello my name is tttt
+
+#Output with -1
+#hello my name is ddd
+#hello my name is ssss
+
+
