@@ -19,6 +19,11 @@ name = name.title()
 #use combined function
 name = name.strip().title()
 
+#lowercase
+name = input()
+print(name.lower())
+
+
 
 print("Hello, " + name)
 
